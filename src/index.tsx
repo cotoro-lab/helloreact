@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import { RouterConfig } from './RouterConfig';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(
+  <React.StrictMode>
+  <RouterConfig />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
