@@ -1,16 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Button from './Button';
 
 const App = () => {
   return(
-    <div>
-      <div>App</div>
-      <Button title='post'/>
-      <Button title='edit'/>
-      <Button title='delete'/>
-      <Button title='submit'/>
-    </div>
+    <>
+      <h1>Hello React Home</h1>
+      <nav>
+        <ul>
+          <li><Link to="prop-page">ボタンを使ってpropを簡単に理解する</Link></li>
+          <li><Link to="counter-page">Counterを作成してstateを簡単に理解する</Link></li>
+        </ul>
+      </nav>
+    
+    </>
   );
 };
 
