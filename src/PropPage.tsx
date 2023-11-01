@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from './Button';
+import Button from './components/Button';
 
 export const PropPage = () => {
     return (
