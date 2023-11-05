@@ -10,6 +10,7 @@ const App = () => {
         <ul>
           <li><Link to="prop-page">ボタンを使ってpropを簡単に理解する</Link></li>
           <li><Link to="counter-page">Counterを作成してstateを簡単に理解する</Link></li>
+          <li><Link to="jsonph-page">axiosを用いたHTTP通信</Link></li>
         </ul>
       </nav>
     
