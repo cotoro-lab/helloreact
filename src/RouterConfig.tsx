@@ -5,6 +5,7 @@ import App from './App';
 import { PropPage } from './PropPage';
 import { CounterPage } from './CounterPage';
 import { JsonPlaceHolder } from './JsonPlaceHolder';
+import { PixabayPage } from './PixabayPage';
 
 export const RouterConfig:React.VFC = () => {
     return (
@@ -15,6 +16,7 @@ export const RouterConfig:React.VFC = () => {
             <Route path='prop-page' index element={<PropPage />} />
             <Route path='counter-page' index element={<CounterPage />} />
             <Route path='jsonph-page' index element={<JsonPlaceHolder />} />
+            <Route path='pixabay-page' index element={<PixabayPage />} />
         </Routes>
         </BrowserRouter>
         </>
