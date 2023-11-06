@@ -27,6 +27,14 @@
 * 取得元API：[jsonplaceholder](https://jsonplaceholder.typicode.com)
 * 参考：[【React入門】#7 axiosを用いたHTTP通信の実装](https://youtu.be/tPK0nDpnu98?si=LIT2II_PI_UO0bpw)
 
+### ＃４ （2023/11/06）
+- pixabayを使用しての画像検索アプリ開発のための下準備
+- SearchBarを作成して入力値をコンソール出力するページの作成
+- コンポーネント側：入力値が変更した際にその値をstateにて保持、onSubmitでpropsで取得したコンソール表示処理を実行する。
+- ページ側：propsにコンソール表示する処理を渡す。
+
+> 参考：[【React入門】#8-1 WebAPIを用いた画像検索アプリ 〜検索フォームの作成〜](https://youtube.com/watch?v=2PdVUO7FitM&list=PLtbitg0evatiDrOncn51ku2mD1LGve-_h&index=8)
+
 
 ### 【参考】
 
