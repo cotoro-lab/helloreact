@@ -12,7 +12,7 @@ export const RouterConfig:React.FC = () => {
         <>
         <BrowserRouter>
         <Routes>
-            <Route index element={<App />} />
+            <Route path='/' index element={<App />} />
             <Route path='prop-page' index element={<PropPage />} />
             <Route path='counter-page' index element={<CounterPage />} />
             <Route path='jsonph-page' index element={<JsonPlaceHolder />} />
