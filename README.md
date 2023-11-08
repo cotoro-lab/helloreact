@@ -35,6 +35,14 @@
 
 > 参考：[【React入門】#8-1 WebAPIを用いた画像検索アプリ 〜検索フォームの作成〜](https://youtube.com/watch?v=2PdVUO7FitM&list=PLtbitg0evatiDrOncn51ku2mD1LGve-_h&index=8)
 
+### #5 （2023/11/08）
+- pixabay APIから画像を取得して表示する処理、コンポーネントの追加
+- PixabayPage.tsxの修正
+
+※TypeScriptならAPIから受け取るデータのインターフェースを作成する必要がある。
+
+> 参考：[【React入門】#8-2 WebAPIを用いた画像検索アプリ 〜画像検索機能の作成〜](https://www.youtube.com/watch?v=tclzlcdKUlI&list=PLtbitg0evatiDrOncn51ku2mD1LGve-_h&index=10)
+
 
 ### 【参考】
 
