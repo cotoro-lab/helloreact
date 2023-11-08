@@ -7,7 +7,7 @@ import { CounterPage } from './CounterPage';
 import { JsonPlaceHolder } from './JsonPlaceHolder';
 import { PixabayPage } from './PixabayPage';
 
-export const RouterConfig:React.VFC = () => {
+export const RouterConfig:React.FC = () => {
     return (
         <>
         <BrowserRouter>
