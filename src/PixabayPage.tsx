@@ -12,12 +12,13 @@ export const PixabayPage = () => {
     const navigate = useNavigate();
 
     const [images, setImages] = useState<Image[]>([]);
+    const ApiKey = process.env.REACT_APP_PIXABAY_APIKEY;
 
     const onSearchSubmit = async(term: string) => {
         try
         {
             const params = {
-                key : "40555122-f1f668f3665e050ca37a50dab",
+                key : ApiKey,
                 q : term,
             };
             const respons = await axios.get("https://pixabay.com/api/", {params});
