@@ -43,6 +43,19 @@
 
 > 参考：[【React入門】#8-2 WebAPIを用いた画像検索アプリ 〜画像検索機能の作成〜](https://www.youtube.com/watch?v=tclzlcdKUlI&list=PLtbitg0evatiDrOncn51ku2mD1LGve-_h&index=10)
 
+### #6 （2023/11/13）
+- react-masonry-componentを利用して画像をレンガ状に配置するように修正
+- 配置のスタイル修正
+- 検索バーのレイアウト修正
+
+一旦、本学習は完了とする。
+
+> 参考：[【React入門】#8-3 WebAPIを用いた画像検索アプリ 〜スタイルの修正〜](https://www.youtube.com/watch?v=4oawSYbY2Zg&list=PLtbitg0evatiDrOncn51ku2mD1LGve-_h&index=11)
+
+
+ ### 【完成した画像検索アプリ】
+<img width="925" alt="image" src="https://github.com/cotoro-lab/helloreact/assets/76488848/9895cf01-8143-4dc5-bd0e-75d212ba9e6b">
+
 
 ### 【参考】
 
