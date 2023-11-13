@@ -1,10 +1,17 @@
 import React from 'react';
+import Masonry from 'react-masonry-component';
 
 import { Image } from '../interface/ImageInterface';
+import '../styles/ImageList.css';
 
 type Props = {
     images: Image[]
 };
+
+const masonryOptions = {
+    transitionDuration: 10
+};
+
 
 const ImageList = (props: Props) => {
     const images = props.images.map((image) => {
@@ -18,11 +25,18 @@ const ImageList = (props: Props) => {
             </a>
         )
     });
+
     return (
-        <div>
-            <p>{images}</p>
-        </div>
-    )
+        <Masonry
+            className='image-list' 
+            elementType='ul'
+            options={masonryOptions}
+            disableImagesLoaded={false}
+            updateOnEachImageLoad={false}
+        >
+            {images}
+        </Masonry>
+    );
 };
 
 export default ImageList;

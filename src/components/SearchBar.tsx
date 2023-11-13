@@ -14,7 +14,7 @@ const SearchBar = (props: Props) => {
     };
 
     return (
-        <>
+        <div className='ui segment'>
             <form onSubmit={onFormSubmit} className="ui form">
                 <div className="field">
                     <label>Image Search</label>
@@ -29,7 +29,7 @@ const SearchBar = (props: Props) => {
                     />
                 </div>
             </form>
-        </>
+        </ div>
     )
 };
 
